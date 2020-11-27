@@ -2,7 +2,7 @@ import numpy as np
 import simpleaudio as sa
 #cancelador de ruido
 
-frequency1 = 466  # Our played note will be 440 Hz
+frequency1 = 444  # Our played note will be 440 Hz
 frequency2 = 440  # Our played note will be 440 Hz
 fs = 44100  # 44100 samples per second
 seconds = 2  # Note duration of 3 seconds
