@@ -2,9 +2,9 @@ import numpy as np
 import simpleaudio as sa
 #cancelador de ruido
 
-frequency1 = 466  # Our played note will be 440 Hz
-frequency2 = 440  # Our played note will be 440 Hz
-fs = 44100  # 44100 samples per second
+frequency1 = 440  # Our played note will be 440 Hz
+frequency2 = 320  # Our played note will be 440 Hz
+fs = 88200  # 44100 samples per second
 seconds = 2  # Note duration of 3 seconds
 
 # Generate array with seconds*sample_rate steps, ranging between 0 and seconds
